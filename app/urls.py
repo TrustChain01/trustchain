@@ -25,6 +25,7 @@ urlpatterns = [
     path('view_complaints', views.view_complaints),
     path('view_employers', views.view_employers),
     path('view_feedback', views.view_feedback),
+    path('view_certificate', views.view_ceritficate),
 
 
     path('generate_certificate', views.generate_certificate),

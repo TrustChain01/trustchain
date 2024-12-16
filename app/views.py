@@ -42,6 +42,8 @@ def view_employers(request):
 def view_feedback(request):
     return render(request,"admin/view_feedback.html")
 
+def view_ceritficate(request):
+    return render(request, "admin/view_certificate.html")
 
 
 
